@@ -47,19 +47,19 @@ Project tasks are managed using GitHub Projects to simulate real-world project m
 
 ### GitHub Projects Task Assignment
 - **Backlog**
-  - Define initial project timeline (Project Manager) – Due 2025-01-30
-  - Create skills assessment document (Project Manager) – Due 2025-01-31
+  - Define initial project timeline (Muhammad Hassnain) – Due 2025-01-30
+  - Create skills assessment document (Muhammad Hassnain) – Due 2025-01-31
 - **To Do**
-  - Requirements document analysis (QA Analyst) – Due 2025-02-05
-  - Initial system architecture design (Backend Developer) – Due 2025-02-10
+  - Requirements document analysis (Ranabhat Raj) – Due 2025-02-05
+  - Initial system architecture design (Fabio Bustamante Romillo) – Due 2025-02-10
 - **In Progress**
-  - Requirements review and validation (Technical Writer) – Due 2025-02-28
+  - Requirements review and validation (Inshal Zahid) – Due 2025-02-28
 - **Review**
-  - Prototype design evaluation (Frontend Developer) – Due 2025-04-30
-  - Initial software release testing (QA Analyst) – Due 2025-05-02
+  - Prototype design evaluation (Ranabhat Raj) – Due 2025-04-30
+  - Initial software release testing (Fabio Bustamante Romillo) – Due 2025-05-02
 - **Done**
-  - Final documentation compilation (Technical Writer) – Due 2025-06-20
-  - Production software delivery (Project Manager) – Due 2025-06-25
+  - Final documentation compilation (Inshal Zahid) – Due 2025-06-20
+  - Production software delivery (Muhammad Hassnain) – Due 2025-06-25
 
 **Workflow Sequence**: Backlog → To Do → In Progress → Review → Done  
 **Special Conditions**: One task marked as "In Progress" and one task marked as "Urgent" with detailed descriptions and due dates.
@@ -109,7 +109,7 @@ gantt
 
     section Payment Assignment 3
     Final Delivery Phase         :a3, after a2, 30d 
-```    
+```  
     
     
 ## Class Time Utilization
