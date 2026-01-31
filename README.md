@@ -1,135 +1,174 @@
 # Assignment #1: Project Management Plan
+## Product Manager for "SmartStudy" – Student Learning Analytics Platform
 
 ## Project Overview
-This project simulates real-world software project management where I act as a project manager overseeing a development team that is not my own. The goal is to plan, coordinate, and deliver a software product over six months, ensuring that three major payment assignments are completed and approved before payment can be made.
+This project serves as the project management plan for **"SmartStudy"** – a student learning analytics platform being developed by my classmate group for their final term project. As the assigned project manager, I am overseeing a team of four developers: Inshal Zahid, Fabio Bustamante Romillo, Raj Ranabhat, and Hassnain (myself). The platform helps students track study habits, predict exam performance, and provide personalized study recommendations using data analytics.
+
+The project runs for six months with three payment-linked milestones that must be completed and approved before payment can be issued to the development team.
 
 ---
 
 ## Project Scope & Timeline
-The project runs for six months from the starting date and is divided into three major payment assignments that must be completed and approved before payment can be issued:
+**Project Name:** SmartStudy – Learning Analytics Platform  
+**Development Team:** Inshal Zahid, Fabio Bustamante Romillo, Raj Ranabhat, Hassnain  
+**Project Duration:** 6 months (January 28 – June 25, 2025)  
 
-- **Requirements Review** – Due one month from start date
-- **Implementation & Design Review** – Due four months from start date  
-- **Final Delivery** – Due six months from start date
+The project is divided into three major payment assignments:
 
-Each assignment requires specific inputs and deliverables before progressing to the next phase.
+- **Requirements Review** – Due: February 28, 2025 (Month 1)
+- **Implementation & Design Review** – Due: April 30, 2025 (Month 4)  
+- **Final Delivery** – Due: June 25, 2025 (Month 6)
+
+Each payment is contingent on successful completion and approval of the corresponding deliverable.
 
 ---
 
 ## Skills Assessment
-I have identified the following team members and their available skills and competencies:
+I conducted a skills assessment with the four team members:
 
-- **Frontend Developer**: Specializes in user interface implementation, responsive design, and client-side functionality
-- **Backend Developer**: Experienced in server-side logic, database architecture, and API development
-- **QA Analyst**: Skilled in testing methodologies, bug tracking, and quality assurance processes
-- **Technical Writer**: Proficient in documentation, user guides, and technical specification writing
+- **Inshal Zahid** – Frontend & UI/UX Lead  
+  *Skills:* React, TypeScript, Figma, Tailwind CSS, responsive design, user research  
+  *Role:* Implements dashboard, data visualizations, and user interface design
 
-Skills were assessed through direct discussion to ensure appropriate task assignment and project risk minimization.
+- **Fabio Bustamante Romillo** – Backend & Database Architect  
+  *Skills:* Python (Django/Flask), PostgreSQL, REST APIs, data modeling, system architecture  
+  *Role:* Develops analytics engine, database design, and backend API development
+
+- **Raj Ranabhat** – DevOps & Cloud Infrastructure Specialist  
+  *Skills:* AWS, Docker, CI/CD pipelines, Linux administration, security, deployment automation  
+  *Role:* Manages cloud deployment, containerization, monitoring, and scalability
+
+- **Hassnain** – QA, Documentation & Project Coordination  
+  *Skills:* Testing (Selenium, Jest), technical writing, requirements analysis, agile methodologies  
+  *Role:* Ensures quality assurance, writes documentation, validates requirements, and supports project tracking
+
+Skills were assessed during a 60-minute class session on January 28th to align roles with project needs.
 
 ---
 
 ## Requirements Review
-**Purpose**: Go through all software requirements and verify that the team has defined all that is needed to design software to solve the problem.
+**Purpose:** To review all software requirements and verify the team has defined everything needed to design the SmartStudy platform.
 
-**Input**: Requirements Document
+**Input:** SmartStudy Requirements Document (provided by the team)
 
-**Key Activities**:
-- Review complete requirements document for clarity and completeness
-- Identify any ambiguous or missing requirements
-- Confirm technical feasibility of all requirements
-- Document approval from stakeholders before proceeding
-- Ensure requirements align with business objectives and user needs
+**Key Activities:**
+- Review functional requirements: user authentication, study session tracking, analytics dashboard, report generation
+- Review non-functional requirements: system performance, scalability, data privacy (FERPA compliance)
+- Confirm that all user stories are captured: student users, instructor views, admin panel
+- Validate technical feasibility of predictive analytics features
+- Identify gaps: missing mobile responsiveness requirements, unclear data export functionality
+- Document stakeholder sign-off before proceeding to design phase
 
 ---
 
 ## Project Plan
-Project tasks are managed using GitHub Projects to simulate real-world project management workflow. Tasks are organized into **Backlog, To Do, In Progress, Review, and Done** columns. Responsibilities are assigned based on team member skills, and progress is monitored throughout the project lifecycle.
+Project tasks are managed using **GitHub Projects** with the following workflow:  
+**Backlog → To Do → In Progress → Review → Done**
 
-### GitHub Projects Task Assignment
+### GitHub Projects Task Board
 - **Backlog**
-  - Define initial project timeline (Muhammad Hassnain) – Due 2025-01-30
-  - Create skills assessment document (Muhammad Hassnain) – Due 2025-01-31
-- **To Do**
-  - Requirements document analysis (Ranabhat Raj) – Due 2025-02-05
-  - Initial system architecture design (Fabio Bustamante Romillo) – Due 2025-02-10
-- **In Progress**
-  - Requirements review and validation (Inshal Zahid) – Due 2025-02-28
-- **Review**
-  - Prototype design evaluation (Ranabhat Raj) – Due 2025-04-30
-  - Initial software release testing (Fabio Bustamante Romillo) – Due 2025-05-02
-- **Done**
-  - Final documentation compilation (Inshal Zahid) – Due 2025-06-20
-  - Production software delivery (Muhammad Hassnain) – Due 2025-06-25
+  - Finalize project charter and scope (Hassnain) – Due 2025-01-30
+  - Complete skills matrix (Hassnain) – Due 2025-01-31
 
-**Workflow Sequence**: Backlog → To Do → In Progress → Review → Done  
-**Special Conditions**: One task marked as "In Progress" and one task marked as "Urgent" with detailed descriptions and due dates.
+- **To Do**
+  - Analyze requirements document (Hassnain) – Due 2025-02-05
+  - Design database schema (Fabio) – Due 2025-02-10
+  - Create UI wireframes (Inshal) – Due 2025-02-15
+  - Setup initial AWS environment (Raj) – Due 2025-02-20
+
+- **In Progress**
+  - Requirements validation and gap analysis (Hassnain) – Due 2025-02-28
+
+- **Review**
+  - Evaluate prototype analytics dashboard (Inshal & Fabio) – Due 2025-04-30
+  - Test initial study tracking features (Hassnain) – Due 2025-05-02
+  - Security and deployment review (Raj) – Due 2025-05-05
+
+- **Done**
+  - Compile user manuals and deployment guides (Hassnain) – Due 2025-06-20
+  - Deliver final platform to class stakeholders (Hassnain) – Due 2025-06-25
+
+**Task Details:** Each task includes description, assignee, due date, labels (e.g., `urgent`, `frontend`, `backend`), and status.
 
 ---
 
 ## Implementation & Design Review
-**Purpose**: Go through the software design and initial release of the software (prototype) and verify the implementation and design meets the requirements and solves the problem.
+**Purpose:** To review the software design and initial release (prototype) of SmartStudy and verify it meets requirements and solves the intended problem.
 
-**Input**: Design Documentation and Initial Software Release
+**Input:** Design Documentation + Initial Software Release (prototype)
 
-**Key Activities**:
-- Review software architecture and design documentation
-- Test prototype functionality against requirements
-- Validate that design solutions address the core problem
-- Identify any design flaws or implementation gaps
-- Provide feedback for improvements before final development
+**Key Activities:**
+- Review architectural diagrams: microservices vs. monolithic approach selected
+- Evaluate prototype: test study session logging, dashboard load times, and prediction accuracy
+- Validate FERPA compliance in data handling and storage
+- Assess usability: conduct internal user testing with classmates
+- Confirm integration between frontend (React) and backend (Python/Flask)
+- Identify improvements: enhance mobile experience, optimize query performance
 
 ---
 
 ## Final Delivery
-**Purpose**: Deliver the final product to the customer.
+**Purpose:** To deliver the final SmartStudy product to the class (customer) for final presentation and grading.
 
-**Input**: Final documentation and production release of software
+**Input:** Final documentation + Production release of software
 
-**Key Activities**:
-- Complete all development and testing phases
-- Prepare final technical and user documentation
-- Deploy production-ready software to customer environment
-- Conduct final quality assurance and acceptance testing
-- Obtain formal customer sign-off and project closure
+**Key Activities:**
+- Deploy final version to AWS Edu instance (Raj)
+- Conduct UAT (User Acceptance Testing) with real student users (Hassnain)
+- Finalize all documentation: technical specs, API docs, user guide (Hassnain)
+- Prepare final presentation for class demonstration (Inshal)
+- Archive all project artifacts: code, designs, meeting minutes (Fabio)
+- Obtain formal acceptance from instructor and peer review panel (Hassnain)
 
 ---
 
 ## Project Timeline (Mermaid)
 ```mermaid
 gantt
-    title Assignment #1 – Six Month Project Timeline
+    title SmartStudy Project Timeline – 6 Months
     dateFormat  YYYY-MM-DD
     axisFormat  %b %Y
 
-    section Payment Assignment 1
-    Requirements Review Phase    :a1, 2025-01-28, 30d
+    section Payment Assignment 1: Requirements
+    Requirements Review & Sign-off   :milestone, 2025-02-28, 0d
+    Initial Planning & Setup         :2025-01-28, 30d
 
-    section Payment Assignment 2
-    Implementation & Design      :a2, after a1, 90d
+    section Payment Assignment 2: Implementation
+    UI/UX Design & Prototyping       :2025-03-01, 45d
+    Backend Development & API Build  :2025-03-10, 50d
+    Data Pipeline & Analytics Engine :2025-04-01, 30d
+    Design Review & Testing          :milestone, 2025-04-30, 0d
 
-    section Payment Assignment 3
-    Final Delivery Phase         :a3, after a2, 30d 
-```  
+    section Payment Assignment 3: Delivery
+    Integration & System Testing     :2025-05-01, 40d
+    Deployment & Final Documentation :2025-06-10, 15d
+    Final Delivery & Presentation    :milestone, 2025-06-25, 0d
     
-    
+```
 ## Class Time Utilization
-A 60-minute class session was conducted on January 28th to discuss requirements and project information with the team. This session was used for:
+A structured 60-minute class session was held on January 28th, 2025 with the SmartStudy development team (Inshal, Fabio, Raj, and Hassnain) to:
 
-- Initial requirements clarification and team alignmentSkills assessment and role assignment discussions
-- Timeline review and milestone planning
-- Communication protocol establishment
-- Risk identification and mitigation planning
+- Clarify project vision and MVP (Minimum Viable Product) scope
+
+- Discuss technical constraints and platform choices
+
+- Assign roles based on skills assessment
+
+- Establish communication cadence: weekly syncs, Slack for daily updates
+
+- Identify initial risks: data privacy, predictive model accuracy, timeline feasibility
+
+- Agree on GitHub Projects as the primary task management tool
+
 ## Reflection
-This project provides valuable experience in managing software development projects with payment-linked milestones. From my perspective:
-
 ### Project Quality: 
-This is a well-structured project that realistically simulates project management challenges, including timeline pressure, team coordination, and milestone-based delivery.
+SmartStudy is a relevant and well-scoped academic project that addresses real student needs. The phased payment structure ensures accountability and aligns with agile delivery principles.
 
-### User Needs Connection: 
-The project strongly connects to user needs through its phased approach, where each payment assignment ensures the product remains aligned with requirements and actually solves the intended problem.
+### Connection to User Needs: 
+Directly connected—students struggle with self-regulated learning, and this platform provides actionable insights. Each phase validates user value: requirements ensure we build the right thing, design review ensures we build it right, and delivery ensures it works in real contexts.
 
-### Difficulty Level: 
-The project presents an appropriate level of difficulty – challenging enough to require careful planning and coordination, but not so technical that it becomes inaccessible to project managers. The six-month timeline with three review points creates realistic pressure while allowing sufficient time for quality delivery.
+### Difficulty Assessment: 
+Moderately challenging. The predictive analytics component adds technical complexity, and FERPA compliance introduces regulatory considerations. The six-month timeline is tight but achievable with clear milestones and team coordination.
 
-### Overall Assessment: 
-This assignment effectively balances theory with practical application, providing experience in both planning and critical evaluation of software projects.
+### Overall: 
+This project effectively blends technical development with project management rigor. It prepares students for real-world scenarios where payment, timelines, and stakeholder alignment are critical to success.
